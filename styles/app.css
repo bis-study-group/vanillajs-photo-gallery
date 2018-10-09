@@ -1,1 +1,20 @@
-/* Insert code here. */
+.container {
+  margin: 0 auto;
+  max-width: 840px;
+  padding-top: 1rem;
+}
+
+.gallery-main {
+  margin: 0 0 2rem 0;
+}
+
+.gallery-main img {
+  width: 100%;
+}
+
+.gallery-thumbnails {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+}
