@@ -12,14 +12,14 @@
 <body>
   <main>
     <section>
-      <img class="visible" src="images/image_1.jpeg" alt="image_1">
-      <img class="" src="images/image_2.jpeg" alt="image_2">
-      <img class="" src="images/image_3.jpeg" alt="image_3">
+      <img id="photo1" class="photo visible" src="images/image_1.jpeg" alt="image_1">
+      <img id="photo2" class="photo" src="images/image_2.jpeg" alt="image_2">
+      <img id="photo3" class="photo" src="images/image_3.jpeg" alt="image_3">
     </section>
-    <section id="check3">
-      <img class="check" src="images/thumbnail_1.jpeg" alt="thumbnail_1">
-      <img class="check" src="images/thumbnail_2.jpeg" alt="thumbnail_2">
-      <img class="check" src="images/thumbnail_3.jpeg" alt="thumbnail_3">
+    <section id="select">
+      <img class="choice" src="images/thumbnail_1.jpeg" alt="thumbnail_1" onclick="onClickPhoto('photo1')">
+      <img class="choice" src="images/thumbnail_2.jpeg" alt="thumbnail_2" onclick="onClickPhoto('photo2')">
+      <img class="choice" src="images/thumbnail_3.jpeg" alt="thumbnail_3" onclick="onClickPhoto('photo3')">
     </section>
   </main>
   <script src="/scripts/app.js"></script>

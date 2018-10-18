@@ -1,6 +1,13 @@
-#check3 {
+.photo {
+  display: none;
+  margin: 0 auto;
+}
+.visible {
+  display: block;
+}
+#select {
   size: 100%;
 }
-.check {
-  size: 33%;
+.choice {
+  width: 33%;
 }
