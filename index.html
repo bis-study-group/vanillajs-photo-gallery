@@ -3,30 +3,38 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Photo Gallery</title>
-  <link rel="stylesheet" href="/styles/app.css">
+  <link rel="stylesheet" href="/styles/app.css" />
 </head>
 
 <body>
   <main>
     <div class="container">
-      <div class="gallery" data-gallery>
-        <figure class="gallery-main">
-          <img src="/images/image_1.jpeg" alt="" data-gallery-image>
-        </figure>
-        <ul class="gallery-thumbnails">
-          <li class="gallery-thumbnail-item">
-            <img src="/images/thumbnail_1.jpeg" alt="" data-gallery-src="/images/image_1.jpeg">
+      <div class="gallery" id="myGallery">
+        <ol class="gallery-images">
+          <li class="gallery-image-item active" data-gallery-image="1">
+            <img src="/images/image_1.jpeg" alt="" />
           </li>
-          <li class="gallery-thumbnail-item">
-            <img src="/images/thumbnail_2.jpeg" alt="" data-gallery-src="/images/image_2.jpeg">
+          <li class="gallery-image-item" data-gallery-image="2">
+            <img src="/images/image_2.jpeg" alt="" />
           </li>
-          <li class="gallery-thumbnail-item">
-            <img src="/images/thumbnail_3.jpeg" alt="" data-gallery-src="/images/image_3.jpeg">
+          <li class="gallery-image-item" data-gallery-image="3">
+            <img src="/images/image_3.jpeg" alt="" />
           </li>
-        </ul>
+        </ol>
+        <ol class="gallery-thumbnails">
+          <li class="gallery-thumbnail-item" data-gallery-thumbnail="1">
+            <img src="/images/thumbnail_1.jpeg" alt="" />
+          </li>
+          <li class="gallery-thumbnail-item" data-gallery-thumbnail="2">
+            <img src="/images/thumbnail_2.jpeg" alt="" />
+          </li>
+          <li class="gallery-thumbnail-item" data-gallery-thumbnail="3">
+            <img src="/images/thumbnail_3.jpeg" alt="" />
+          </li>
+        </ol>
       </div>
     </div>
   </main>

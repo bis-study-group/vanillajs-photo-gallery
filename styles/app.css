@@ -4,17 +4,29 @@
   padding-top: 1rem;
 }
 
-.gallery-main {
+.gallery-images {
   margin: 0 0 2rem 0;
 }
 
-.gallery-main img {
+.gallery-image-item {
+  display: none;
+}
+
+.gallery-image-item.active {
+  display: block;
+}
+
+.gallery-image-item img {
   width: 100%;
+}
+
+.gallery-images,
+.gallery-thumbnails {
+  list-style: none;
+  padding: 0;
 }
 
 .gallery-thumbnails {
   display: flex;
-  list-style: none;
   justify-content: space-between;
-  padding: 0;
 }
