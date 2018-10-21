@@ -11,9 +11,22 @@
 
 <body>
   <main>
-    <!-- Insert code here. -->
+
+    <section class="section1">
+      <div class="main_box">
+        <img class="main_img active" id="img" src="/images/image_1.jpeg" alt="">
+      </div>
+      <div class="sub_box">
+        <img class="sub_img now" id="on" src="/images/image_1.jpeg" onclick="changeimg('/images/image_1.jpeg',this);"
+          alt=""><img class="sub_img" id="" src="/images/image_2.jpeg" onclick="changeimg('/images/image_2.jpeg',this);"
+          alt=""><img class="sub_img" id="" src="/images/image_3.jpeg" onclick="changeimg('/images/image_3.jpeg',this);"
+          alt="">
+      </div>
+    </section>
+
   </main>
-  <script src="/scripts/app.js"></script>
+  <script src="/scripts/app.js">
+  </script>
 </body>
 
 </html>
