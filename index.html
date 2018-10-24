@@ -12,20 +12,44 @@
 <body>
   <main>
 
-    <section class="section1">
+    <div class="slider">
+      <p class="title">やまもとさんオリジナル</p>
       <div class="main_box">
-        <img class="main_img" id="img" src="/images/image_1.jpeg">
+        <img class="main_img" id="img01" src="/images/image_1.jpeg">
       </div>
       <div class="sub_box">
-        <img class="sub_img" src="/images/image_1.jpeg" onclick="changeimg('/images/image_1.jpeg',this);"><img class="sub_img"
-          src="/images/image_2.jpeg" onclick="changeimg('/images/image_2.jpeg',this);"><img class="sub_img" src="/images/image_3.jpeg"
-          onclick="changeimg('/images/image_3.jpeg',this);">
+        <div><img class="sub_img" src="/images/image_1.jpeg" onclick="changeimg('/images/image_1.jpeg', 'img01');"></div>
+        <div><img class="sub_img" src="/images/image_2.jpeg" onclick="changeimg('/images/image_2.jpeg', 'img01');"></div>
+        <div><img class="sub_img" src="/images/image_3.jpeg" onclick="changeimg('/images/image_3.jpeg', 'img01');"></div>
       </div>
-    </section>
+    </div>
+
+    <div class="slider">
+      <p class="title">やまもとさんコピー</p>
+      <div class="main_box">
+        <img class="main_img" id="img02" src="/images/image_4.jpeg">
+      </div>
+      <div class="sub_box">
+        <div><img class="sub_img" src="/images/image_4.jpeg" onclick="changeimg('/images/image_4.jpeg', 'img02');"></div>
+        <div><img class="sub_img" src="/images/image_5.jpeg" onclick="changeimg('/images/image_5.jpeg', 'img02');"></div>
+        <div><img class="sub_img" src="/images/image_6.jpeg" onclick="changeimg('/images/image_6.jpeg', 'img02');"></div>
+      </div>
+    </div>
+
+    <div id="slider-container" class="slider">
+      <p class="title">かなうちアレンジ</p>
+      <div class="main_box">
+        <img id="slide-main-photo" class="main_img" src="/images/image_4.jpeg">
+      </div>
+      <div class="sub_box">
+        <div><img class="thumbnail" src="/images/image_4.jpeg"></div>
+        <div><img class="thumbnail" src="/images/image_5.jpeg"></div>
+        <div><img class="thumbnail" src="/images/image_6.jpeg"></div>
+      </div>
+    </div>
 
   </main>
-  <script src="/scripts/app.js">
-  </script>
+  <script src="/scripts/app.js"></script>
 </body>
 
 </html>
