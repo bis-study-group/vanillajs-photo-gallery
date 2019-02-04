@@ -19,7 +19,7 @@
 
 ```bash
 $ git checkout myname
-$ git chekout -b v2/myname
+$ git checkout -b v2/myname
 ```
 
 コードが書けたらプッシュしましょう。
