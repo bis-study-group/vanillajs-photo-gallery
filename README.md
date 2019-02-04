@@ -44,3 +44,7 @@ $ git checkout -b yamamoto
 ```bash
 $ git push origin yamamoto
 ```
+
+## 課題 2
+
+この課題ができたら[次の課題](./exercise2/README.md)に進んでください。
