@@ -16,7 +16,9 @@ Vueの前にまずは「普通の」JavaScriptが書けないといけません�
 
 ## 完成図
 
-TODO
+サムネイル（小さい画像）をクリックすると、メイン画像（大きい画像）が切り替わります。
+
+![完成図](https://github.com/bis-study-group/vuejs-photo-gallery/blob/master/doc/sample.gif)
 
 画像もリポジトリに入ってるのでそれ使ってください。
 
