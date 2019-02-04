@@ -39,7 +39,7 @@ $ git clone git@github.com:bis-study-group/vanillajs-photo-gallery.git
 $ git checkout -b yamamoto
 ```
 
-コードを書けたらプッシュしましょう。
+コードが書けたらプッシュしましょう。
 
 ```bash
 $ git push origin yamamoto
