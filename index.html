@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="./styles/app.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Photo Gallery</title>
-  <link rel="stylesheet" href="/styles/app.css">
-</head>
-
-<body>
-  <main>
-    <!-- Insert code here. -->
-  </main>
-  <script src="/scripts/app.js"></script>
-</body>
-
+  <body>
+    <main>
+      <!-- Insert code here. -->
+      <div class="container">
+        <div class="center">
+          <img id="main_img" src="./images/image_1.jpeg" />
+        </div>
+        <div class="img_list center">
+          <img
+            class="img_list_items"
+            id="js--click_1"
+            src="./images/thumbnail_1.jpeg"
+          />
+          <img
+            class="img_list_items"
+            id="js--click_2"
+            src="./images/thumbnail_2.jpeg"
+          />
+          <img
+            class="img_list_items"
+            id="js--click_3"
+            src="./images/thumbnail_3.jpeg"
+          />
+        </div>
+      </div>
+    </main>
+    <script src="./scripts/app.js"></script>
+  </body>
 </html>
